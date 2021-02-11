@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: ${{ acc.IMAGE_NAME }}
+        image: demo-app
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
